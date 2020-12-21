@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>Markmap</title>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+#mindmap {
+  display: block;
+  width: 100vw;
+  height: 100vh;
+}
+</style>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.4/dist/style.min.css">
+</head>
+<body>
+<svg id="mindmap"></svg>
+<script src="https://cdn.jsdelivr.net/npm/d3@6.3.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-view@0.2.0"></script><script src="https://cdn.jsdelivr.net/npm/markmap-toolbar@0.1.4/dist/index.umd.min.js"></script><script>(r => {
+                setTimeout(r);
+              })(function anonymous(
+) {
+const toolbar = new markmap.Toolbar();
+toolbar.attach(mm);
+const el = toolbar.render();
+el.setAttribute('style', 'position:absolute;bottom:20px;right:20px');
+document.body.append(el);
+})</script><script>((getMarkmap, data) => {
+        const {
+          Markmap
+        } = getMarkmap();
+        window.mm = Markmap.create('svg#mindmap', null, data);
+      })(() => window.markmap,{"t":"heading","d":1,"p":{},"v":"Dekai 2021","c":[{"t":"heading","d":2,"p":{},"v":"Java Basic","c":[{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://github.com/Snailclimb/JavaGuide\">JavaGuide</a>"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://github.com/CyC2018/CS-Notes\">CS-Notes</a>"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://lingcoder.github.io/OnJava8/#/sidebar\">On Java 8</a>"}]},{"t":"heading","d":2,"p":{},"v":"Algorithm","c":[{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://www.geeksforgeeks.org/practice-for-cracking-any-coding-interview/\">Algorithm</a>"},{"t":"list_item","d":4,"p":{},"v":"Data Strucutre"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://leetcode.com/\">LeetCode</a>"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://www.hackerrank.com/\">HackerRank</a>"}]},{"t":"heading","d":2,"p":{},"v":"Design Pattern"},{"t":"heading","d":2,"p":{},"v":"Hands on","c":[{"t":"heading","d":3,"p":{},"v":"Coding"},{"t":"heading","d":3,"p":{},"v":"Test case","c":[{"t":"list_item","d":5,"p":{},"v":"Normal function"},{"t":"list_item","d":5,"p":{},"v":"Edge case"},{"t":"list_item","d":5,"p":{},"v":"Invalid Input"}]}]},{"t":"heading","d":2,"p":{},"v":"DevOps","c":[{"t":"list_item","d":4,"p":{},"v":"Pipeline"}]},{"t":"heading","d":2,"p":{},"v":"Framework","c":[{"t":"heading","d":3,"p":{},"v":"Spring","c":[{"t":"list_item","d":5,"p":{},"v":"IOC"},{"t":"list_item","d":5,"p":{},"v":"AOP"},{"t":"list_item","d":5,"p":{},"v":"MVC"}]},{"t":"heading","d":3,"p":{},"v":"Springboot"},{"t":"heading","d":3,"p":{},"v":"Spring cloud"},{"t":"heading","d":3,"p":{},"v":"Micro services"}]},{"t":"heading","d":2,"p":{},"v":"Sample project","c":[{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://mp.weixin.qq.com/s/4z1tgYH_Z8ViETgmpTINew\">Spring Boot Template</a>"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"http://www.orangeforms.com/\">OrangeForm</a>"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://www.yuque.com/pig4cloud/pig/gg3ndm\">Pig4Cloud</a>"},{"t":"list_item","d":4,"p":{},"v":"<a href=\"https://vue-alain.github.io/\">AntD Vue</a>"}]},{"t":"heading","d":2,"p":{},"v":"Interview","c":[{"t":"heading","d":3,"p":{},"v":"Resume"},{"t":"heading","d":3,"p":{},"v":"Self Introduction"},{"t":"heading","d":3,"p":{},"v":"Questions to interviewer"},{"t":"heading","d":3,"p":{},"v":"Previouse projects"},{"t":"heading","d":3,"p":{},"v":"Online coding"}]}]})</script>
+</body>
+</html>
