@@ -8,10 +8,11 @@
 - [CSBook](https://github.com/iCSToCS/CSBook)
 - [programmer-advancement](https://github.com/Snailclimb/programmer-advancement)
 ## Algorithm
-- [Algorithm](https://www.geeksforgeeks.org/practice-for-cracking-any-coding-interview/)
-- Data Strucutre
-- [LeetCode](https://leetcode.com/)
-- [HackerRank](https://www.hackerrank.com/)
+### [Algorithm](https://www.geeksforgeeks.org/practice-for-cracking-any-coding-interview/)
+### Data Strucutre
+### [LeetCode](https://leetcode.com/)
+### [LeetCodeAnimation](https://github.com/MisterBooo/LeetCodeAnimation)
+### [HackerRank](https://www.hackerrank.com/)
 
 ## Design Pattern
 
