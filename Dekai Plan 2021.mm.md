@@ -15,10 +15,13 @@
 ### [HackerRank](https://www.hackerrank.com/)
 
 ## Design Pattern
+### [itstack-demo-design](https://github.com/fuzhengwei/itstack-demo-design)
 
 ## Hands on
 ### Coding
+### Sample Projects
 ### Test case
+- TDD
 - Normal function
 - Edge case
 - Invalid Input
@@ -49,14 +52,15 @@
 ## Sample project
 - [Spring Boot Template](https://mp.weixin.qq.com/s/4z1tgYH_Z8ViETgmpTINew)
 - [OrangeForm](http://www.orangeforms.com/)
-- [*Pig4Cloud](https://www.yuque.com/pig4cloud/pig/gg3ndm)
+- [Pig4Cloud](https://www.yuque.com/pig4cloud/pig/gg3ndm)
 - [AntD Vue](https://vue-alain.github.io/)
 - [spring-security-jwt-guide](https://github.com/Snailclimb/spring-security-jwt-guide)
+- Learning -> code
 
 ## Interview
 ### [Resume](http://cv.ftqq.com/)
 ### Self Introduction
 ### Questions to interviewer
-### Previouse projects
+### Previous projects
 ### Online coding
 ### Review Interview and Summary
